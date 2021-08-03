@@ -6,10 +6,10 @@ int main(){
 	printf("Calculadora de la formula general\n Ingrese valores de A, B, C. \n\n");
 	
 	int opcion = 2;
-    int pregunta;
+    	int pregunta;
 	float a,b,c,raiz,po,su,su1,iraiz,x1,x2,suma,resta;
 	
-	 while(opcion != pregunta){	
+	while(opcion != pregunta){	
 	
 	printf("Escriba el valor de A: ");
 	scanf("%f",&a);
@@ -29,7 +29,7 @@ int main(){
 	printf("\nx1 es igual a: %f\n" ,x1);
 	
 	printf("x2 es igual a: %f\n",x2);
-	 printf("\nDesea calcular nuevamente?\n1- Si \n2- No\n Ingrese opcion:  ");
+	printf("\nDesea calcular nuevamente?\n1- Si \n2- No\n Ingrese opcion:  ");
         scanf("%d", &pregunta);
 }
 
